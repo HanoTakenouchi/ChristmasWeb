@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+}
+main{
+  height: 100vh;
+  width: 98.9vw;
+  background-image: url(back_3.png);
+}
+.copy{
+  animation-name: CopyAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  font-family: a-otf-futo-min-a101-pr6n, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+/* @keyframes CopyAnim {
+  from {
+  opacity: 100;
+  }
+  to {
+  opacity: 0;
+  }
+} */
+.Main{
+  animation-name: MainAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+/* @keyframes MainAnim {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 100;
+  }
+} */
+.Title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.DayTimeImg{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.Snow{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+.Snow1{
+  position: relative;
+  top: 20%;
+}
+.Snow2{
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.Snow3{
+  position: absolute;
+  top: -70%;
+  left: 0;
+}
+.SantaJi-san{
+  position: absolute;
+  top: -20%;
+  right: 5%;
+}
+.SantaJi-sanImg{
+  position: relative;
+}
+.Ji-sanHandImg{
+  animation-name: HandAnim;
+  animation-duration:3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: 8%;
+  right: 55%;
+}
+@keyframes HandAnim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-20deg);
+  }
+}
+.YukidaruImg{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.ArrowImg{
+  position: absolute;
+  top: 110%;
+  left: -160%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.CoS{
+  position: relative;
+  width: 98.9vw;
+  height: 100vh;
+}
+.cos1{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  animation-name: CoS1Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS1Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos2{
+  position: absolute;
+  top: 15%;
+  right: 18%;
+  animation-name: CoS2Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS2Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos3{
+  position: absolute;
+  top: 42%;
+  right: 10%;
+  animation-name: CoS3Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS3Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos4{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  animation-name: CoS4Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS4Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos5{
+  position: absolute;
+  top: 46%;
+  left: 20%;
+  animation-name: CoS5Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS5Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos6{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  animation-name: CoS6Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS6Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos7{
+  position: absolute;
+  top: 56%;
+  left: 2%;
+  animation-name: CoS7Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS7Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos8{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  animation-name: CoS8Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS8Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Food{
+  position: relative;
+  width: 98.9vw;
+  height: 100vh;
+  background-image: url(BackGreen.png);
+}
+.FoodTitleImg{
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+}
+.TopSnowImg{
+  position: absolute;
+  top: 0vh;
+  transform: scale(1, -1);
+}
+.BottomSnowImg{
+  position: absolute;
+  bottom: 0vh;
+  transform: scale(-1, 1);
+}
+.Yukidarus{
+  position: relative;
+}
+.Yukidaru-1{
+  position: absolute;
+  Top: 28%;
+  left: 3%;
+}
+.Yukidaru-2{
+  position: absolute;
+  Top: 31%;
+  left: 15%;
+}
+.FoodImg{
+  position: relative;
+  width: 98.9vw;
+  height: 65vh;
+}
+.FoodFlame{
+  position: absolute;
+  top: 30%;
+  left: -33%;;
+  animation-name: FoodFlameAnim;
+  animation-duration: 10s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes FoodFlameAnim {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0vw,5vh);
+  }
+  40%{
+    transform: rotate(360deg);
+    transform: translate(92vw,5vh);
+  }
+  50%{
+    transform: translate(932w,5vh);
+  }
+  60%{
+    transform: translate(92vw,5vh);
+  }
+  70%{
+    transform: translate(92vw,5vh);
+  }
+  100% {
+    transform: translate(150vw,2vh);
+  }
+}
+.FoodSCAImg{
+  position: relative;
+  position: absolute;
+  top: 42.5%;
+  right: 9.8%;
+}
+.SushiImg{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation-name: SushiAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes SushiAnim {
+  0% {
+    opacity: 0;
+  }
+  10%{
+    opacity: 0;
+  }
+  19%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ChickenImg{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation-name: ChickenAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes ChickenAnim {
+  0% {
+    opacity: 0;
+  }
+  45%{
+    opacity: 0;
+  }
+  49%{
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.AppetizerImg{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation-name: AppAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes AppAnim {
+  0% {
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  83%{
+    opacity: 1;
+  }
+  88%{
+    opacity: 1;
+  }
+  93%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
